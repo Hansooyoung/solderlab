@@ -1,0 +1,20 @@
+{
+  "model_name": "Soldy-Net-V6",
+  "model_version": "6.0.0",
+  "architecture": "Standardized 2x MLP (48->160->80->7) + 40 Depth-8 ExtraTrees Ensemble",
+  "classes": [
+    "PASS_NORMAL",
+    "D1_BRIDGE",
+    "D2_COLD",
+    "D3_INSUFFICIENT",
+    "D4_EXCESS",
+    "D5_PINHOLE",
+    "NON_SOLDER"
+  ],
+  "feature_count": 48,
+  "held_out_accuracy": 93.59,
+  "held_out_macro_f1": 90.39,
+  "train_samples": 33959,
+  "val_samples": 3823,
+  "artifact_file": "assets/models/soldy_v6_model.json"
+}
