@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgCream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8EE"/>
+      <stop offset="100%" stop-color="#EDE6D6"/>
+    </linearGradient>
+    <radialGradient id="soldyHero" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#99BDD8"/>
+      <stop offset="50%" stop-color="#52738D"/>
+      <stop offset="100%" stop-color="#283F52"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgCream)"/>
+  <path d="M 0 0 L 1200 0 L 1200 92 Q 900 132, 600 105 Q 300 78, 0 112 Z" fill="#3B5870"/>
+
+  <g transform="translate(68, 165)">
+    <rect x="0" y="0" width="286" height="34" rx="17" fill="#E6F2FB" stroke="#A8CCE8" stroke-width="1.6"/>
+    <text x="143" y="22" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="800" fill="#283F52" text-anchor="middle" letter-spacing="0.8">ASISTEN QC SOLDER INTERAKTIF</text>
+
+    <text x="0" y="96" font-family="'Segoe UI', Arial, sans-serif" font-size="58" font-weight="900" fill="#0F172A">SolderLab</text>
+    <text x="0" y="138" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="800" fill="#3B5870">Kendali Mutu PCB Bersama Soldy AI</text>
+    <text x="0" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="500" fill="#475569">
+      <tspan x="0" dy="0">Analisis visual sambungan solder multi-titik secara instan dan offline.</tspan>
+      <tspan x="0" dy="24">Mendukung Through-Hole, Header Pin, Soket IC, hingga papan SMD.</tspan>
+    </text>
+
+    <g transform="translate(0, 240)">
+      <rect x="0" y="0" width="180" height="44" rx="22" fill="#FFFFFF" stroke="#CBE2F4" stroke-width="1.6"/>
+      <text x="90" y="27" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="800" fill="#16A34A" text-anchor="middle">✓ Klasifikasi D1–D5</text>
+
+      <rect x="194" y="0" width="196" height="44" rx="22" fill="#FFFFFF" stroke="#CBE2F4" stroke-width="1.6"/>
+      <text x="292" y="27" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="800" fill="#3B5870" text-anchor="middle">✓ Soldy-Net-V6 Lokal</text>
+
+      <rect x="404" y="0" width="194" height="44" rx="22" fill="#FFFFFF" stroke="#CBE2F4" stroke-width="1.6"/>
+      <text x="501" y="27" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="800" fill="#D97706" text-anchor="middle">✓ Anti Kaki Belum Potong</text>
+    </g>
+
+    <text x="0" y="346" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#64748B">SOLDERLAB V1.0 • BEBAS KETERGANTUNGAN CLOUD • STANDAR IPC-A-610</text>
+  </g>
+
+  <g transform="translate(710, 142)">
+    <rect x="8" y="14" width="230" height="408" rx="34" fill="#0F172A" opacity="0.16"/>
+    <rect x="0" y="0" width="230" height="408" rx="34" fill="#1E293B" stroke="#475569" stroke-width="4"/>
+    <rect x="10" y="10" width="210" height="388" rx="26" fill="#FAF8EE"/>
+    <rect x="10" y="32" width="210" height="44" fill="#52738D"/>
+    <text x="115" y="60" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">SolderLab Scan</text>
+    <rect x="24" y="92" width="182" height="170" rx="16" fill="#0F172A"/>
+    <circle cx="115" cy="177" r="46" stroke="#22C55E" stroke-width="3" stroke-dasharray="7 5" fill="none"/>
+    <circle cx="115" cy="177" r="14" fill="#F59E0B"/>
+    <circle cx="115" cy="177" r="6" fill="#FFFFFF"/>
+    <rect x="32" y="278" width="166" height="50" rx="12" fill="#FFFFFF" stroke="#CBE2F4" stroke-width="1.5"/>
+    <text x="115" y="301" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="800" fill="#0F172A" text-anchor="middle">Soldy AI Siap Memeriksa</text>
+    <text x="115" y="317" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#16A34A" text-anchor="middle">Kaki Komponen Tersaring Aman</text>
+    <rect x="32" y="340" width="166" height="38" rx="19" fill="#52738D"/>
+    <text x="115" y="364" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">Analisis Sekarang →</text>
+  </g>
+
+  <g transform="translate(955, 226) scale(0.75)">
+    <ellipse cx="150" cy="340" rx="115" ry="18" fill="#243746" opacity="0.16"/>
+    <path d="M 150 20 C 56 135, 18 190, 18 252 C 18 322, 76 342, 150 342 C 224 342, 282 322, 282 252 C 282 190, 244 135, 150 20 Z" fill="url(#soldyHero)"/>
+    <rect x="80" y="92" width="60" height="44" rx="14" fill="#334A5E" stroke="#182733" stroke-width="3"/>
+    <rect x="86" y="98" width="48" height="32" rx="10" fill="#D4EAF8"/>
+    <rect x="160" y="92" width="60" height="44" rx="14" fill="#334A5E" stroke="#182733" stroke-width="3"/>
+    <rect x="166" y="98" width="48" height="32" rx="10" fill="#D4EAF8"/>
+    <ellipse cx="112" cy="204" rx="12" ry="19" fill="#182733"/>
+    <circle cx="107" cy="196" r="5.5" fill="#FFFFFF"/>
+    <ellipse cx="188" cy="204" rx="12" ry="19" fill="#182733"/>
+    <circle cx="183" cy="196" r="5.5" fill="#FFFFFF"/>
+    <path d="M 134 228 Q 150 248 166 228" fill="none" stroke="#182733" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
