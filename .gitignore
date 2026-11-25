@@ -1,0 +1,58 @@
+# Miscellaneous & OS
+*.class
+*.log
+*.pyc
+__pycache__/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# IDE / Editors
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/.symlinks/
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.widget_preview/
+app.*.symbols
+app.*.map.json
+
+# Android / Gradle / Signing Secrets
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/key.properties
+**/*.keystore
+**/*.jks
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Large ML Datasets & Scratch Caches
+ai_training/datasets/
+ai_training/scratch/
+*.parquet
+*.npz
