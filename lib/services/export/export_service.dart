@@ -82,7 +82,7 @@ class ExportService {
       await exportDir.create(recursive: true);
     }
 
-    final filePath = '${exportDir.path}/QC_Solder_Export_${DateTime.now().millisecondsSinceEpoch}.csv';
+    final filePath = '${exportDir.path}/SolderLab_Export_${DateTime.now().millisecondsSinceEpoch}.csv';
     final file = File(filePath);
     await file.writeAsString(csvString);
 

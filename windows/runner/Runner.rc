@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.qcsolder.app" "\0"
-            VALUE "FileDescription", "qc_solder" "\0"
+            VALUE "CompanyName", "SolderLab" "\0"
+            VALUE "FileDescription", "SolderLab" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "qc_solder" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 com.qcsolder.app. All rights reserved." "\0"
-            VALUE "OriginalFilename", "qc_solder.exe" "\0"
-            VALUE "ProductName", "qc_solder" "\0"
+            VALUE "InternalName", "SolderLab" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 SolderLab. All rights reserved." "\0"
+            VALUE "OriginalFilename", "solderlab.exe" "\0"
+            VALUE "ProductName", "SolderLab" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

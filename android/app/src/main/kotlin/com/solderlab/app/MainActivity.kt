@@ -1,4 +1,4 @@
-package com.qcsolder.app.qc_solder
+﻿package com.solderlab.app
 
 import io.flutter.embedding.android.FlutterActivity
 
